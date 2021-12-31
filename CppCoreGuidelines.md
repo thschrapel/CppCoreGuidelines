@@ -17339,6 +17339,9 @@ To say "`T` is `Sortable`":
     void sort(Sortable&);      // Best (assuming support for concepts): "The parameter is Sortable"
 
 The shorter versions better match the way we speak. Note that many templates don't need to use the `template` keyword.
+   // ??? Couldn't we have something like Swifts's 'Some' to state the differene between an (abstract) interface and a template 
+   // ??? parameter?
+   // void sort(Some Sortable&);
 
 ##### Note
 
